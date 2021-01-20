@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11387" started-at="2020-12-27T13:59:04 UTC" finished-at="2020-12-27T13:59:15 UTC">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11387" started-at="2020-12-27T13:59:04 UTC" finished-at="2020-12-27T13:59:15 UTC">
+      <class name="library_API.DynamicPayload">
+        <test-method status="PASS" signature="addBook(java.lang.String, java.lang.String)[pri:0, instance:library_API.DynamicPayload@29b5cd00]" name="addBook" duration-ms="9000" started-at="2020-12-27T13:59:04 UTC" data-provider="BooksData" finished-at="2020-12-27T13:59:13 UTC">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[axc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[312]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBook -->
+        <test-method status="PASS" signature="addBook(java.lang.String, java.lang.String)[pri:0, instance:library_API.DynamicPayload@29b5cd00]" name="addBook" duration-ms="410" started-at="2020-12-27T13:59:13 UTC" data-provider="BooksData" finished-at="2020-12-27T13:59:13 UTC">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bbv]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8887]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBook -->
+        <test-method status="PASS" signature="addBook(java.lang.String, java.lang.String)[pri:0, instance:library_API.DynamicPayload@29b5cd00]" name="addBook" duration-ms="577" started-at="2020-12-27T13:59:13 UTC" data-provider="BooksData" finished-at="2020-12-27T13:59:14 UTC">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nhj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[780]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBook -->
+        <test-method status="PASS" signature="deleteBook(java.lang.String)[pri:0, instance:library_API.DynamicPayload@29b5cd00]" name="deleteBook" duration-ms="377" started-at="2020-12-27T13:59:14 UTC" data-provider="DeleteIds" finished-at="2020-12-27T13:59:14 UTC">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[axc312]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBook -->
+        <test-method status="PASS" signature="deleteBook(java.lang.String)[pri:0, instance:library_API.DynamicPayload@29b5cd00]" name="deleteBook" duration-ms="351" started-at="2020-12-27T13:59:14 UTC" data-provider="DeleteIds" finished-at="2020-12-27T13:59:15 UTC">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bbv8887]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBook -->
+        <test-method status="PASS" signature="deleteBook(java.lang.String)[pri:0, instance:library_API.DynamicPayload@29b5cd00]" name="deleteBook" duration-ms="338" started-at="2020-12-27T13:59:15 UTC" data-provider="DeleteIds" finished-at="2020-12-27T13:59:15 UTC">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nhj780]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBook -->
+      </class> <!-- library_API.DynamicPayload -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
